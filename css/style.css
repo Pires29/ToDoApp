@@ -1,0 +1,345 @@
+.bg-color{
+    background-color: darkred;
+    height: 100vh;
+}
+
+.col-sm-7, .col-sm-5{
+    padding: 0;
+}
+
+.input-group-addon{
+    background-color: white;
+    color: red;
+}
+
+.wrapper .card .input-field button.btn {
+    color: #eee;
+    padding: 0rem;
+    padding-right: 0.5rem;
+}
+
+.wrapper .card .input-field button.btn:hover {
+    color: #fff;
+}
+
+hr{
+    width: 30%;
+    margin: 0;
+}
+
+p{
+    margin: 0;
+}
+
+.btn-height{
+    width: 15rem;
+    height: 2.5rem;
+}
+
+.align-vertical-form{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.form-control{
+    width: 30rem;
+    height: 3rem;
+}
+
+.width-btn{
+    width: 60%!important;
+    border-radius: 2.5rem;
+    height: 3rem;
+    font-size: 1.275rem;
+    background-color: darkred;
+    color: white;
+    border: none;
+}
+
+.btn-google{
+    width: 15rem!important;
+    border-radius: 2.5rem;
+    height: 3rem;
+    font-size: 1rem;
+    background-color: white;
+    color: black;
+    border: 0.2rem solid darkred;
+
+}
+
+.fs-title-home{
+    font-size: 3rem;
+}
+
+.font-size-data{
+    font-size: 0.9rem;
+}
+
+.fs-sub-home{
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.fs-welcome{
+    font-size: 6rem;
+    font-family: "Bodoni MT";
+    font-weight: bolder;
+}
+
+/*----- Mainpage -----*/
+
+h3{
+    margin: 0;
+}
+
+.btn-task-red{
+    width: 20%!important;
+    border-radius: 0.5rem;
+    height: 2.250rem;
+    font-size: 0.875rem;
+    background-color: darkred;
+    color: white;
+    border: none;
+}
+
+.btn-task-cancel{
+    margin-right: 1rem;
+    width: 15%!important;
+    border-radius: 0.5rem;
+    height: 2.250rem;
+    font-size: 0.875rem;
+    background-color: lightgrey;
+    color: black;
+    border: none;
+}
+
+.btn-task-red:hover{
+    background-color: #76131d;
+
+}
+
+.btn-task-cancel:hover{
+    background-color: grey;
+    color: white;
+}
+
+.mainpage:hover{
+    border: 3px solid red;
+}
+
+.padding-list-mainpage{
+    padding-top: 3rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.padding-list-mainpage ul li{
+    padding: 0.5rem;
+}
+
+.padding-list-mainpage ul li:hover{
+    background-color: lightgrey;
+}
+
+.mainpage input{
+    border: 0;
+    width: 100%;
+}
+
+.mainpage input:focus{
+    outline: none;
+}
+
+.border-task-big{
+    border-radius: 0.5rem;
+}
+
+ul{
+    margin: 0;
+}
+
+.hr-div{
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.05rem solid lightgrey;
+}
+
+/* unvisited link */
+.task a:link {
+    color: grey;
+    text-decoration: none;
+}
+
+/* visited link */
+.task a:visited {
+    color: grey;
+    text-decoration: none;
+
+}
+
+/* mouse over link */
+.task a:hover {
+    color: darkred;
+    text-decoration: none;
+}
+
+/* selected link */
+.task a:active {
+    color: grey;
+    text-decoration: none;
+}
+
+/* unvisited link */
+.add_task:link {
+    color: grey;
+    text-decoration: none;
+}
+
+/* visited link */
+.add_task:visited {
+    color: grey;
+    text-decoration: none;
+
+}
+
+/* mouse over link */
+.add_task:hover {
+    color: darkred;
+    text-decoration: none;
+}
+
+/* selected link */
+.add_task:active {
+    color: grey;
+    text-decoration: none;
+}
+
+.text-color-plus{
+    color: darkred;
+}
+
+#task_hold{
+    display: none;
+}
+
+.add_task{
+    display: none;
+}
+
+.display-none{
+    display: none;
+}
+
+
+.close:hover {
+    background-color: #f44336;
+    color: white;
+}
+
+.delete{
+    border: none;
+    background-color: white;
+}
+
+.delete:hover {
+    color: darkred;
+}
+
+.bg-grey{
+    background-color: lightgrey;
+}
+
+/*---- Search Bar -----*/
+
+.width-search{
+    width: 15%;
+}
+
+.bg-navbar{
+    background-color: #e60000;
+}
+
+/*---- Menu Hamburguer ----*/
+
+.overflow-me{
+    overflow-y: hidden;
+}
+
+.bg-task-list{
+    background-color: hsl(0, 0%, 97%);
+}
+
+#hamburguer:hover{
+    cursor: pointer;
+}
+
+
+@media (max-width: 1010px) {
+    .col-sm-2-me{
+        position: absolute;
+        z-index: 9999;
+        width: 50%;
+        height: 100%;
+        box-shadow: 2px 5px 10px grey;
+    }
+
+    .col-sm-10-me{
+        width: 100%;
+    }
+
+
+    .btn-task-red{
+        font-size: 0.8rem;
+        width: 30%!important;
+    }
+
+    .btn-task-cancel{
+        font-size: 0.8rem;
+        width: 20%!important;
+    }
+}
+
+@media all and (max-width: 992px){
+    #welcome{
+        display: none;
+    }
+}
+
+@media (max-width: 700px) {
+    .btn-task-red{
+        font-size: 0.8rem;
+    }
+
+    .btn-task-cancel{
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 650px) {
+    .btn-task-red{
+        font-size: 0.8rem;
+        width: 30%!important;
+    }
+
+    .btn-task-cancel{
+        font-size: 0.8rem;
+        width: 20%!important;
+    }
+}
+
+@media (max-width: 500px) {
+    .btn-task-red{
+        font-size: 0.7rem;
+        width: 40%!important;
+    }
+
+    .btn-task-cancel{
+        font-size: 0.7rem;
+        width: 30%!important;
+    }
+}
+
+.add_task:hover{
+    color: darkred;
+}
