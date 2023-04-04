@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="Futebol,Portugal,Vencer,Campeonato">
+    <meta name=" author" content="Renato Almeida">
+    <meta name="viewport" content="width=device-width">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200;300&display=swap" rel="stylesheet">
+    <!-- BOOTSTRAP CSS -->
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- INTEGRAÇÃO DOS ÍCONES-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
+    <!-- estilos próprios -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>To Do App</title>
+</head>
+<body class="container-fluid overflow-me">
+<section class="row">
+    <div class="d-flex bg-navbar p-1">
+        <i id="hamburguer" class="text-white bi bi-list fs-2 mx-4 px-2"></i>
+
+    </div>
+</section>
+<section class="row vh-100">
+    <div id="navbar" class="col-sm-2-me col-sm-3 bg-task-list text-dark padding-list-mainpage">
+        <ul class="list-unstyled">
+        <li class="d-flex">
+            <i class="bi bi-calendar-day"></i>
+            <p class="px-3">Daily Tasks</p>
+
+        </li>
+        <li class="d-flex">
+            <i class="bi bi-calendar-week"></i>
+            <p class="px-3">Weekly Tasks (Soon...)</p>
+
+        </li>
+        <li class="d-flex">
+            <i class="bi bi-calendar"></i>
+            <p class="px-3">Your calendar (Soon...)</p>
+
+        </li>
+        <li class="d-flex">
+            <i class="bi bi-plus"></i>
+            <p class="px-3">Add project (Soon...)</p>
+        </li>
+
+    </ul>
+
+    </div>
+
+    <div id="global-task" class="col-sm-9 col-sm-10-me d-flex justify-content-center pt-5">
+        <div class="w-75">
+        <div class="d-flex align-items-center justify-content-between">
+        <h4>Today</h4>
+        <p class="text-muted font-size-data">Fri 24 Fev</p>
+        </div>
+            <hr class="w-100 mt-2">
+
+
+
+            <ul id="tasks" class="list-unstyled">
+
+            </ul>
+            <div id="task_add">
+            <div class="d-flex align-items-center pt-2 add_task ">
+
+                <i class="text-color-plus bi bi-plus fs-4"></i>
+                <p class="px-2 text-muted">Add a task</p>
+
+            </div>
+            </div>
+
+
+            <div id="task_hold" class="mainpage border border-task-big px-4 py-3 mt-3">
+                <input id="input_1" placeholder="Title" class="text-muted">
+                <hr class="mt-2 w-100">
+                <input id="input_2" placeholder="Description" class="text-muted pb-5 pt-2">
+                <hr class="mb-3 w-100">
+                <div class="d-flex justify-content-end">
+                <button id="task_hold_cancel" class="btn-task-cancel">Cancel</button>
+                <button id="add_task_button" class="btn-task-red">Add task</button>
+                </div>
+            </div>
+
+            <div class="display-none">
+                <i class="bi bi-envelope"></i>
+                <p>Sera</p>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/@popperjs/core@2"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/mainpage.js"></script>
+
+
+
+</body>
+</html>
